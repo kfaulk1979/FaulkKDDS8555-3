@@ -64,7 +64,7 @@ influence_df = pd.DataFrame({
 
 # Sort and display
 influence_df = influence_df.sort_values(by='Influence', key=abs, ascending=False)
-print("\n🔍 Approximated Influence of Original Predictors in PCR:")
+print("\n Approximated Influence of Original Predictors in PCR:")
 print(influence_df)
 
 # Predict and evaluate
