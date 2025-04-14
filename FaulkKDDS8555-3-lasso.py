@@ -79,7 +79,7 @@ coef_df = pd.DataFrame({
 
 #Display only non-zero coefficients
 nonzero_coefs = coef_df[coef_df['Coefficient'] != 0]
-print("🔍 Non-zero Lasso Coefficients:")
+print("Non-zero Lasso Coefficients:")
 print(nonzero_coefs.sort_values(by='Coefficient', key=abs, ascending=False))
 
 
